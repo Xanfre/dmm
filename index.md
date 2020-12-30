@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## About
 
-You can use the [editor on GitHub](https://github.com/pshjt/dmm/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The Dark mod manager (DMM) lets you install and organize mods for System Shock 2, Thief and Thief II in a straightforward manner.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirements
 
-### Markdown
+| Game           | Version       |
+|:---------------|:--------------|
+| System Shock 2 | v2.4 or later |
+| Thief          | v1.19 or later|
+| Thief II       |v1.19 or later |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Installation
 
-```markdown
-Syntax highlighted code block
+DMM is part of [SS2Tool](https://www.systemshock.org/index.php?topic=4141.0) and is installed alongside it.
+For a manual installation, download [the latest release](https://github.com/pshjt/dmm/releases/latest/download/dmm.exe) and preferably copy it to your game's main folder.
+For mod archive support, a `7z.dll` needs to be present in the same folder as DMM.
 
-# Header 1
-## Header 2
-### Header 3
+### How to use
 
-- Bulleted
-- List
+Launch DMM. If the game is not yet detected, press **Select game folder...** and select your game's main folder.
 
-1. Numbered
-2. List
+Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kdb>Ctrl</kdb>. Confirm by clicking **Open**.
 
-**Bold** and _Italic_ and `Code` text
+Activate mods and arrange their priorities as needed. Mods that are higher on the list override every mod below it. When finished, press **Apply changes** and **Launch game** to play.
 
-[Link](url) and ![Image](src)
-```
+If you want further information about a mod, you can press **Lookup (WWW)** to open a Google search or **Open a ReadMe** file if present. If you have no further use of a mod, you can **Delete** it. Deleting a mod 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+To save your current mod loadout for later re-use, open the profile manager.
 
-### Jekyll Themes
+Press **Save profile...** to save your current profile or **Load file...** to load a previous profile.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pshjt/dmm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The result window shows a preview of your loaded profile. Mods which were deleted in the meantime cannot be loaded and are marked as such.
+Press **Use** to apply the loaded profile.
