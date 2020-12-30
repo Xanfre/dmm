@@ -2,3 +2,38 @@
 ---
 
 @import "{{ site.theme }}";
+
+.download-icon-simple {
+    height: 30px;
+    width: 30px;
+    background: url("../images/icon_download.png");
+}
+
+.download-icon-executable {
+    height: 70px;
+    width: 70px;
+    background: url("../images/icon_executable.png");
+
+    &:hover {
+        background: url("../images/icon_executable_hover.png");
+    }
+}
+
+#downloads {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: auto;
+
+    background: none;
+
+    > i {
+        margin-left: -5px;
+    }
+
+    > a {
+        display: flex;
+        float: unset;
+        margin: 0;
+    }
+}
