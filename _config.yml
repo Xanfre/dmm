@@ -1,3 +1,6 @@
 theme: jekyll-theme-slate
 title: Dark mod manager
 description: A mod manager for all Dark engine games made by Looking Glass Studios
+
+github:
+  executable_url: https://github.com/pshjt/dmm/releases/latest/download/dmm.exe
