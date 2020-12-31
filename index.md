@@ -23,7 +23,7 @@ Launch DMM. If the game is not yet detected, press **Select game folder...** and
 
 ![Select game folder](/assets/images/dmm_1.webp "Select game folder")
 
-Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kdb>Ctrl</kdb>. Confirm by clicking **Open**.
+Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kbd>Ctrl</kbd>. Confirm by clicking **Open**.
 
 ![Select archives to install](/assets/images/dmm_archive.webp "Select archives to install")
 

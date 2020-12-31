@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
+kbd {
+    padding: 2px 4px;
+    white-space: nowrap;
+    color: #000;
+    background-color: #fafafa;
+    border-width: 1px 3px 3px 1px;
+    border-style: solid;
+    border-color: #ccc #aaa #888 #bbb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
 $icon-height: 30px;
 
 .download-icon-simple {
