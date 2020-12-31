@@ -27,7 +27,7 @@ Press **Install mod archives...** and select the mod archives to install. You ca
 
 ![Select archives to install](/assets/images/dmm_archive.webp "Select archives to install")
 
-Activate mods and arrange their priorities as needed. Mods that are higher on the list override every mod below it.
+Activate mods and arrange their priorities as needed via buttons or drag & drop. Mods that are higher on the list override every mod below it.
 
 ![Finished installation with example mod list](/assets/images/dmm_2.webp "Finished installation with example mod list")
 
@@ -47,3 +47,17 @@ The result window shows a preview of your loaded profile. Mods which were delete
 ![Profile preview](/assets/images/dmm_profile2.webp "Profile preview")
 
 Press **Use** to apply the loaded profile, or simply close the window to discard your choice.
+
+#### Shortcuts
+
+| Function          | Key                                |
+|:------------------|:-----------------------------------|
+| Increase priority | <kbd>Alt</kbd> + <kbd>&uarr;</kbd> |
+| Decrease priority | <kbd>Alt</kbd> + <kbd>&darr;</kbd> |
+| (De-)Activate     | <kbd>&crarr;</kbd>                 |
+| Pause/Resume      | <kbd>Space</kbd>                   |
+| Delete            | <kbd>Del</kbd>                     |
+| Apply changes     | <kbd>Alt</kbd> + <kbd>s</kbd>      |
+
+## Configuration
+
