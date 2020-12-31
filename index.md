@@ -21,15 +21,15 @@ For mod archive support, a `7z.dll` needs to be present in the same folder as DM
 #### Install mods
 Launch DMM. If the game is not yet detected, press **Select game folder...** and select your game's main folder.
 
-![Select game folder](/assets/images/dmm_1.webp "Select game folder")
+![Select game folder](assets/images/dmm_1.webp "Select game folder")
 
 Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kbd>Ctrl</kbd>. Confirm by clicking **Open**. Mod archives in the main mod folder (`DMM` by default) are installed automatically.
 
-![Select archives to install](/assets/images/dmm_archive.webp "Select archives to install")
+![Select archives to install](assets/images/dmm_archive.webp "Select archives to install")
 
 Activate mods and arrange their priorities as needed via buttons or drag & drop. Mods that are higher on the list override every mod below it.
 
-![Finished installation with example mod list](/assets/images/dmm_2.webp "Finished installation with example mod list")
+![Finished installation with example mod list](assets/images/dmm_2.webp "Finished installation with example mod list")
 
 When finished, press **Apply changes** and **Launch game** to play.
 
@@ -40,11 +40,11 @@ To save your current mod order for later re-use, open the profile manager via **
 
 Press **Save profile...** to save your current profile or **Load file...** to load a previous profile.
 
-![Profile manager](/assets/images/dmm_profile1.webp "Profile manager")
+![Profile manager](assets/images/dmm_profile1.webp "Profile manager")
 
 The result window shows a preview of your loaded profile. Mods which were deleted in the meantime cannot be loaded and are marked as such.
 
-![Profile preview](/assets/images/dmm_profile2.webp "Profile preview")
+![Profile preview](assets/images/dmm_profile2.webp "Profile preview")
 
 Press **Use** to apply the loaded profile, or simply close the window to discard your choice.
 
