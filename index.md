@@ -23,7 +23,7 @@ Launch DMM. If the game is not yet detected, press **Select game folder...** and
 
 ![Select game folder](/assets/images/dmm_1.webp "Select game folder")
 
-Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kbd>Ctrl</kbd>. Confirm by clicking **Open**.
+Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kbd>Ctrl</kbd>. Confirm by clicking **Open**. Mod archives in the main mod folder (`DMM` by default) are installed automatically.
 
 ![Select archives to install](/assets/images/dmm_archive.webp "Select archives to install")
 
@@ -61,3 +61,12 @@ Press **Use** to apply the loaded profile, or simply close the window to discard
 
 ## Configuration
 
+Configuration values are stored in a file `dmm.cfg` in the same folder as DMM. The most important values are detailed here.
+
+| Key                 | Value (default)                | Function                                                       |
+|:--------------------|:-------------------------------|:---------------------------------------------------------------|
+| game.modPathSuffix  | `.\patch_ext`                  | Path appended to `mod_path` in `cam_mod.ini`                   |
+| game.modPathPrefix  |                                | Path prepended to `mod_path` in `cam_mod.ini`                  |
+| game.baseMoviePath  | `.\cutscenes+.\Data\cutscenes` | Path appended to `movie_path` in game installation config      |
+| game.modsFolder     | `DMM`                          | Main mod folder. Installed mods are automatically copied to it |
+| game.archivesFolder | `DMMArchives`                  | Folder that automatically installed mod archives are copied to |
