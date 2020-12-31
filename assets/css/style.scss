@@ -3,37 +3,40 @@
 
 @import "{{ site.theme }}";
 
+$icon-height: 30px;
+
 .download-icon-simple {
-    height: 30px;
-    width: 30px;
+    height: $icon-height;
+    width: $icon-height;
     background: url("../images/icon_download.png");
-}
-
-.download-icon-executable {
-    height: 70px;
-    width: 70px;
-    background: url("../images/icon_executable.png");
-
-    &:hover {
-        background: url("../images/icon_executable_hover.png");
-    }
 }
 
 #downloads {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    height: auto;
     width: auto;
-
+    bottom: -1 * $icon-height;
     background: none;
 
-    > i {
-        margin-left: -5px;
-    }
+    right: 10px; // header width
 
     > a {
         display: flex;
+        align-items: center;
         float: unset;
         margin: 0;
+    }
+}
+
+#main_content {
+    padding-top: 20px; // same as padding-bottom
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
     }
 }
