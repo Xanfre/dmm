@@ -20,13 +20,17 @@ For mod archive support, a `7z.dll` needs to be present in the same folder as DM
 
 #### Install mods
 Launch DMM. If the game is not yet detected, press **Select game folder...** and select your game's main folder.
-![Select game folder](/assets/images/dmm_1.jpg "Select game folder")
+
+![Select game folder](/assets/images/dmm_1.webp "Select game folder")
 
 Press **Install mod archives...** and select the mod archives to install. You can select multiple files at once using <kbd>Shift</kbd> and <kdb>Ctrl</kdb>. Confirm by clicking **Open**.
-![Select archives to install](/assets/images/dmm_archive.jpg "Select archives to install")
+
+![Select archives to install](/assets/images/dmm_archive.webp "Select archives to install")
 
 Activate mods and arrange their priorities as needed. Mods that are higher on the list override every mod below it.
-![Finished installation with example mod list](/assets/images/dmm_2.jpg "Finished installation with example mod list")
+
+![Finished installation with example mod list](/assets/images/dmm_2.webp "Finished installation with example mod list")
+
 When finished, press **Apply changes** and **Launch game** to play.
 
 If you want further information about a mod, you can press **Lookup (WWW)** to open a Google search or **Open a ReadMe** file if present. If you have no further use of a mod, you can **Delete** it, which removes the mod from both DMM, and your hard drive. 
@@ -35,9 +39,11 @@ If you want further information about a mod, you can press **Lookup (WWW)** to o
 To save your current mod order for later re-use, open the profile manager via **Manage profiles...**.
 
 Press **Save profile...** to save your current profile or **Load file...** to load a previous profile.
-![Profile manager](/assets/images/dmm_profile1.jpg "Profile manager")
+
+![Profile manager](/assets/images/dmm_profile1.webp "Profile manager")
 
 The result window shows a preview of your loaded profile. Mods which were deleted in the meantime cannot be loaded and are marked as such.
-![Profile preview](/assets/images/dmm_profile2.jpg "Profile preview")
+
+![Profile preview](/assets/images/dmm_profile2.webp "Profile preview")
 
 Press **Use** to apply the loaded profile, or simply close the window to discard your choice.
