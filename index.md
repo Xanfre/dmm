@@ -13,8 +13,8 @@ The Dark mod manager (DMM) lets you install and organize mods for System Shock 2
 ## Installation
 
 DMM is part of [SS2Tool](https://www.systemshock.org/index.php?topic=4141.0) and is installed alongside it.
+
 For a manual installation, download [the latest release](https://github.com/pshjt/dmm/releases/latest/download/dmm.exe) and preferably copy it to your game's main folder.
-For mod archive support, a `7z.dll` needs to be present in the same folder as DMM.
 
 ## How to use
 
