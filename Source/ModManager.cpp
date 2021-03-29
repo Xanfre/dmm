@@ -1390,11 +1390,14 @@ void ModManager::resetStates()
 	}
 }
 
-const std::array<wxString, 16> ModManager::dataDirectories_ =
+const std::array<wxString, 19> ModManager::dataDirectories_ =
 {
 	{
 		"bitmap",
 		"book",
+		"books",
+		"camera",
+		"default",
 		"editor",
 		"fam",
 		"fonts",
@@ -1412,7 +1415,7 @@ const std::array<wxString, 16> ModManager::dataDirectories_ =
 	}
 };
 
-const std::array<wxString, 8> ModManager::dataFiles_ =
+const std::array<wxString, 7> ModManager::dataFiles_ =
 {
 	{
 		"motiondb.bin",
