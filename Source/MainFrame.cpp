@@ -96,7 +96,7 @@ void MainFrame::onClose(wxCloseEvent& event)
 
 void MainFrame::onSize(wxSizeEvent& event)
 {
-	isMaximized_ = IsMaximized();
+	isMaximized_ = IsMaximized() || (IsIconized() && isMaximized_);
 
 	if (!isMaximized_)
 		size_ = GetSize();
@@ -109,7 +109,7 @@ void MainFrame::onSize(wxSizeEvent& event)
 
 void MainFrame::onMove(wxMoveEvent& event)
 {
-	isMaximized_ = IsMaximized();
+	isMaximized_ = IsMaximized() || (IsIconized() && isMaximized_);
 
 	if (!isMaximized_)
 		position_ = GetPosition();
