@@ -26,6 +26,8 @@ public:
 	bool getHasMis() const;
 	bool getHasOther() const;
 	bool getHasReadme() const;
+	bool getHasScript() const;
+	bool getHasShader() const;
 
 	bool getIsNameTooLong() const;
 	bool getIsPlusSignInName() const;
@@ -50,6 +52,8 @@ public:
 	void setHasMis(bool hasMis);
 	void setHasOther(bool hasOther);
 	void setHasReadme(bool hasReadme);
+	void setHasScript(bool hasScript);
+	void setHasShader(bool hasShader);
 
 	void setIsNameTooLong(bool isNameTooLong);
 	void setIsPlusSignInName(bool isPlusSignInName);
@@ -81,6 +85,8 @@ private:
 	bool hasMis_;
 	bool hasOther_;
 	bool hasReadme_;
+	bool hasScript_;
+	bool hasShader_;
 
 	bool isNameTooLong_;
 	bool isPlusSignInName_;

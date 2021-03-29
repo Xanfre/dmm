@@ -40,6 +40,8 @@ public:
 		std::string baseMoviePath;
 		std::vector<std::string> cutsceneFolders;
 		std::string subtitleFolder;
+		std::string squirrelFolder;
+		std::string shaderFolder;
 		std::string folderPath;
 		std::string modsFolder;
 		std::string archivesFolder;
@@ -80,6 +82,8 @@ public:
 		game.pauseIndicator = "*";
 		game.cutsceneFolders.assign({ "cutscenes", "movies" }); // cutscenes for SS2, movies for Thief games
 		game.subtitleFolder = "subtitles";
+		game.squirrelFolder = "sq_scripts";
+		game.shaderFolder = "shaders";
 
 		configVariables();
 	}

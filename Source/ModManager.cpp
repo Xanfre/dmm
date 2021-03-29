@@ -939,6 +939,22 @@ void ModManager::setModType(Mod& mod)
 
 			type += "Level";
 		}
+
+		if (mod.getHasScript())
+		{
+			if (!type.empty())
+				type += ", ";
+
+			type += "Script";
+		}
+
+		if (mod.getHasShader())
+		{
+			if (!type.empty())
+				type += ", ";
+
+			type += "Shader";
+		}
 	}
 
 	mod.setType(type);
@@ -1008,6 +1024,8 @@ void ModManager::checkModDirectory(Mod& mod)
 	mod.setHasDML(dir.HasFiles("*.dml"));
 	mod.setHasMis(dir.HasFiles("*.mis"));
 	mod.setHasGamesys(dir.HasFiles("*.gam"));
+	mod.setHasScript(dir.HasFiles("*.osm") || dir.HasSubDirs(config_.game.squirrelFolder));
+	mod.setHasShader(dir.HasSubDirs(config_.game.shaderFolder));
 
 	std::list<std::string> allSubDirs;
 	wxString nextDirName;
@@ -1412,7 +1430,7 @@ const std::array<wxString, 16> ModManager::dataDirectories_ =
 	}
 };
 
-const std::array<wxString, 8> ModManager::dataFiles_ =
+const std::array<wxString, 6> ModManager::dataFiles_ =
 {
 	{
 		"motiondb.bin",
@@ -1420,7 +1438,6 @@ const std::array<wxString, 8> ModManager::dataFiles_ =
 		"metaui_r.res",
 		"shkres.res",
 		"skeldata.res",
-		"texture.res",
-		"*.osm"
+		"texture.res"
 	}
 };
