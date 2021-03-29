@@ -1021,7 +1021,7 @@ void ModManager::checkModDirectory(Mod& mod)
 			mod.setCutsceneFolder(cutsceneFolder);
 	}
 	mod.setHasSubtitle(dir.HasSubDirs(config_.game.subtitleFolder));
-	mod.setHasDML(dir.HasFiles("*.dml"));
+	mod.setHasDML(dir.HasFiles("*.dml") || dir.HasSubDirs(config_.game.dbmodFolder));
 	mod.setHasMis(dir.HasFiles("*.mis"));
 	mod.setHasGamesys(dir.HasFiles("*.gam"));
 	mod.setHasScript(dir.HasFiles("*.osm") || dir.HasSubDirs(config_.game.squirrelFolder));
